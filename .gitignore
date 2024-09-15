@@ -1,1 +1,14 @@
-*.class
+# Ignore everything
+*
+
+# Except .gitignore
+!.gitignore
+
+# Except .java files
+!*.java
+
+# Ignore directories
+/*/
+
+# Except directories that contain .java files
+!*/**/*.java
